@@ -48,12 +48,4 @@ public class BackPack extends Product {
     public void setCapacity(double capacity) {
         this.capacity = capacity;
     }
-    @Override
-	public String toString() {
-		
-		return super.toString() 
-				+ ", " + "maxContentWeight: " + maxContentWeight 
-				+ ", " + "color: \"" + color + "\"" 
-				+ ", " + "capacity: " + capacity;
-	}
 }
